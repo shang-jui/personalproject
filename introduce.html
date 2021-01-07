@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/introduce.css">
+</head>
+<body>
+    
+  <header>
+
+    <div class="header-content">
+      <i class="fa fa-bars" ></i>
+      <div class="header_img">
+        <a href="./index.html"><img src="img/header.png" alt=""></img></a>
+      </div>
+
+      <ul class="header-list">
+        <li><a href="./story.html" class="btn-2">品牌故事</a></li> 
+        <li><a href="#"class="btn-2">最新消息</a> 
+          <ul>
+            <li><a href="./news.html"class="btn-2">最新消息</a></li>
+            <li><a href="./blog.html"class="btn-2">部落格</a></li>
+          </ul>
+        </li>
+        <li><a href="./items.html"class="btn-2">產品總覽</a></li>
+        <li><a href="./hot.html"class="btn-2">熱銷排行</a></li>
+        <li><a href="#"class="btn-2">熱門Q&A</a>
+          <ul>
+            <li><a href="./problem.html"class="btn-2">常見問題</a></li>
+            <li><a href="./contact.html"class="btn-2">聯絡我們</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class ="header-icon">
+        <li class="search">
+          <input type="text" size=12 maxlength="6" id="search-block" class="hide" >
+          <a href="#">
+            <img src="img/header-1 .png" alt="">
+            <span>搜尋</span>
+          </a>
+        </li>
+        <li>
+          <a href="./shop.html">
+            <img src="img/header-2.png" alt="">
+            <div class="shopCount">0</div>
+            <span>購物車</span>
+          </a>
+        </li>
+        <li><a href="./person.html"><img src="img/header-3.png" alt=""><span>會員</span></a></li>
+      </ul>
+      
+    </div>
+  </header>
+
+  <a href="#"><img class="top" src="img/back.png" alt=""></a>
+
+  <ul class="mobile">
+    <li>
+      <a href="./shop.html">
+        <img src="img/header-2.png" alt="">
+        購物車
+        <div class="mobileshopCount">0</div>
+      </a>
+    </li>
+    <li>
+      <a href="./person.html">
+        <img src="img/header-3.png" alt="">
+        會員登入
+      </a>
+    </li>
+  </ul>
+  <div class="introduce">
+
+    <div class="bread">
+      <a href="./items.html">全部商品</a> / <a href="./introduce.html">產品介紹</a> 
+    </div>
+
+    <div class="title">
+      <h1>商品介紹</h1>
+      <img src="img/Path 1.png" alt=""></img>
+    </div>
+
+    <div class="introduce-main">
+      <div class="intro-top">
+        <div class="intro-blockleft">
+          <ul>
+            <li>
+              <a href="#"><img src="img/introduce-1.jpg" alt="" class="block"></img></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/introduce-2.png" alt=""class="block"></img></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/introduce-3.jpg" alt=""class="block"></img></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/introduce-4.png" alt=""class="block"></img></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/index-13.png" alt=""class="block"></img></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="intro-blockcenter" id="mainPic">
+          <img src="img/index-13.png" alt=""></img>
+        </div>
+
+        <div class="intro-blockright">
+          <h3>【除濕漢方飲】</h3>
+          <h2>除濕輕。茶飲</h2>
+          <p> 漢方茶包（1盒10入）</p>
+          
+          <div class="block-quantity">
+            <p>組合: <span> 0 </span>盒</p>
+            <div>
+              <span>1盒</span>
+              <span>5盒</span>
+            </div>
+            
+          </div>
+  
+          <div class="price">
+            <span>
+              價格
+              <span>350</span>
+              <span>400</span>
+            </span>
+          </div>
+  
+          <div class="count">
+            <select name="coumt-block" onchange="changeCount();">
+              <option value="" selected>請選擇你要幾盒商品</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+  
+          <div class="intro-button">
+            <input type="button" value="立即購買" onclick="location.href='shop.html'"></input>
+            <input type="button" value="加入購物車" onclick=""></input>
+          </div>
+          
+  
+        </div>
+      </div>
+      
+      <ul class="describle-title">
+        <li><a href="#block1">商品描述</a></li>
+        <li><a href="#block2">送貨付款方式</a></li>
+        <li><a href="#block3">顧客評價</a></li>
+      </ul>
+
+      <div class="product-describe" id="block1">
+        <h3>商品描述</h3>
+        <img src="img/introduce-6.png" alt=""></img>
+        
+        <div class="describle-block">
+          <div class="describle-block1">
+            <p>【嚴選純天然中藥材低溫烘培研磨製成】冷泡熱泡都OK!</p>
+            <ul>
+              <li>黑豆｜含有花青素、蛋白質、胡蘿蔔素、維生素B及B1</li>
+              <li>薏米｜利水去濕、维生素E可抗氧化、增進皮膚與血球健康</li>
+              <li>茯苓｜被譽為「四時神藥」，養顏美容、幫助睡眠</li>
+              <li>甘草｜潤喉、天然甜味配方</li>
+            </ul>
+          </div>
+          <div class="describle-block2">
+            <p>【飲用指南】</p>
+            <ul>
+              <li> 適合：身體易疲倦、易水腫、頭皮跟皮膚易出  油、四肢瘦瘦卻胖小腹的你、久坐下半身循環不好的你</li>
+            </ul>
+            <p>注意事項</p>
+            <ul>
+              <li>痛風困擾、腎臟病患者不適合飲用</li>
+              <li>感冒、發燒、腹瀉期間不適合飲用</li>
+              <li>生理期間、孕婦、哺乳期間不適合飲用</li>
+            </ul>
+          </div>
+          <div class="describle-block3">
+            <p>▎若您有下列情況，建議先詢問醫師</p>
+            <ol>
+              <li>正值孕期或哺乳期：如果正在懷孕或哺乳。</li>
+              <li>正在服用其他藥物：包括不須處方、坊間購買的成藥或指示藥物。</li>
+              <li>對任何含有藥材的物質過敏：或者對其他藥物、草藥過敏。</li>
+              <li>本身患有其他疾病：例如生理系統失調，或有其他任何健康狀況。</li>
+            </ol>
+            <p>❖ 飲用後身體如有任何不適，請立即暫停使用。</p>
+          </div>
+          <div class="describle-block4">
+            <ul>
+              <li>保存期限:2年</li>
+              <li>保存方式:</li>
+              <li>未開封兩年；不添加防腐劑，開封後請儘速飲用，避免受潮。</li>
+              <li>製造日期:見產品上標示</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="deliver" id="block2">
+        <h3>送貨及付款方式</h3>
+        <div class="deliver-block">
+          <div class="deliver-left">
+            <p>送貨方式</p>
+            <ul>
+              <li>7-11 超商純取貨</li>
+              <li>台灣本島地區-宅配到府（台灣宅配通</li>
+              <li>台灣離島地區-宅配到府（中華郵政）</li>
+              <li>7-11取貨付款</li>
+              <li>Hong Kong 香港地區/貨到付運費（送貨需要2－3日）</li>
+              <li>Japan 日本地區（送貨需要5－14日）</li>
+              <li>United States 美國地區（送貨需要30－45日）</li>
+            </ul>
+          </div>
+          <div class="deliver-right">
+            <p>付款方式</p>
+            <ul>
+              <li>7-11取貨付款</li>
+              <li>信用卡快速付款，支援國內外Visa, Master, JCB,簽帳卡</li>
+              <li>宅配貨到付款</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="customer" id="block3">
+        <h3>顧客評價</h3>
+        <ul>
+          <li>
+            <div class="customer-title">
+              <img src="img/introduce-7.jpeg" alt=""></img>
+              <p>盧XXX真</p>
+            </div>
+            <div class="customer-content">
+              <P>2020/11/28 18:00:00</P>
+              <p>有效又實用</p>
+            </div>
+          </li>
+          <li>
+            <div class="customer-title">
+              <img src="img/introduce-7.jpeg" alt=""></img>
+              <p>盧XXX真</p>
+            </div>
+            <div class="customer-content">
+              <P>2020/11/28 18:00:00</P>
+              <p>有效又實用</p>
+            </div>
+          </li>
+          <li>
+            <div class="customer-title">
+              <img src="img/introduce-7.jpeg" alt=""></img>
+              <p>盧XXX真</p>
+            </div>
+            <div class="customer-content">
+              <P>2020/11/28 18:00:00</P>
+              <p>有效又實用</p>
+            </div>
+          </li>
+          <li>
+            <div class="customer-title">
+              <img src="img/introduce-7.jpeg" alt=""></img>
+              <p>盧XXX真</p>
+            </div>
+            <div class="customer-content">
+              <P>2020/11/28 18:00:00</P>
+              <p>有效又實用</p>
+            </div>
+          </li>
+          <li>
+            <div class="customer-title">
+              <img src="img/introduce-7.jpeg" alt=""></img>
+              <p>盧XXX真</p>
+            </div>
+            <div class="customer-content">
+              <P>2020/11/28 18:00:00</P>
+              <p>有效又實用</p>
+            </div>
+          </li>
+          <li>
+            <div class="customer-title">
+              <img src="img/introduce-7.jpeg" alt=""></img>
+              <p>盧XXX真</p>
+            </div>
+            <div class="customer-content">
+              <P>2020/11/28 18:00:00</P>
+              <p>有效又實用</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="relative-pro" id="relative" >
+        <h3>相關產品</h3>
+        <img src="img/left-chevron.png" alt="" class="left">
+        <ul style="left:0px">
+          <li>
+            <a href="">
+              <img src="img/index-15.png" alt=""></img>
+              <p>助眠。漢方飲</p>
+              <p>適合： 熬夜晚睡、上班壓力大、幫助入睡</p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="img/items-4.png" alt=""></img>
+              <p>明亮。漢方飲</p>
+              <p> 適合：長期操作電腦、超時看電視、長時看書</p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="img/index-12.png" alt=""></img>
+              <p>精神。漢方飲</p>
+              <p>適合 : 想增加免疫力、延緩衰老的你</p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="img/index-14.png" alt=""></img>
+              <p>亮妍輕。茶飲</p>
+              <p>適合 : 想要氣色紅潤與愛美女性平時的日常茶飲首選</p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="img/index-13.png" alt=""></img>
+              <p>除濕輕。茶飲</p>
+              <p>適合 : 想消除一天水腫，並有效排除身體濕氣</p>
+            </a>
+          </li>
+        </ul>
+        <img src="img/right-arrow.png" alt=""class="right">
+      </div>
+    </div>
+
+  </div>
+
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-left">
+        <h3>漢方輕。茶飲</h3>
+        <p>照顧您的健康 是我們的榮幸</p>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/"><img src="img/footer-1.png" alt=""></img></a>
+          </li>
+          <li>
+            <a href="https://www.google.com/gmail/"><img src="img/footer-2.png" alt=""></img></a>
+          </li>
+          <li>
+            <a href="https://www.skype.com/zh-Hant/features/calling-and-instant-messaging/"><img src="img/footer-3.png" alt=""></img></a>
+          </li>
+          <li>
+            <a href="https://line.me/zh-hant/"><img src="img/footer-4.png" alt=""></img></a>
+          </li>
+        </ul>
+      </div>
+
+        <div class="footer-right">
+          <ul>
+            <li>
+              <h3>關於我們</h3>
+              <a href="./story.html">品牌故事</a>
+              <a href="./news.html">最新消息</a>
+              <a href="./items.html">產品總覽</a>
+            </li>
+            <li>
+              <h3>Q&A</h3>
+              <a href="./problem.html">常見問題</a>
+              <a href="">如何購買</a>
+              <a href="./contact.html">聯絡我們</a>
+            </li>
+            <li>
+              <h3>聯絡資訊</h3>
+              <p>客服專線:0916-369-062</p>
+              <p>地址:新北市三重區忠孝路二段38巷</p>
+              <p>時間:10:00 ~ 18:00</p>
+            </li>
+          </ul>
+        </div>
+      </div>          
+  </footer>
+
+  <div class="footer-trip">
+    <div class="footer-trip-content">
+      <p>© 2020 漢方輕。茶飲版權所有</p>
+      <p>隱私權說明</p>
+      <p>Taiwan</p>
+    </div>
+  </div>
+  <script src="./js/common.js"></script>
+  <script src="./js/introduce.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+body{
+  background-image: url(../img/backgroumd.png);
+  font-family: 'Noto Sans TC', sans-serif;
+  color:#4C4948;
+}
+.create{
+  max-width: 600px;
+  margin: 120px auto 30px ;
+  background-color: white;
+  padding-top: 10px;
+}
+/*.top{
+  width: 50px;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 50;
+}*/ 
+.title{
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #4C4948;
+
+}
+.title img{
+  position: relative;
+  top: -20px;
+  width: 30%;
+}
+
+.create a{
+  margin: 20px 0 20px 20px;
+}
+.content{
+  width:300px;
+  /* outline:1px solid; */
+  margin: 0 auto;
+}
+
+.content h3, input, select{
+  font-size: 20px;
+  font-weight:bold;
+  margin-bottom: 10px;
+}
+/* .content input,select{
+  margin-left:20px;
+} */
+
+.search :focus:after{
+  position: absolute; 
+  content: ""; 
+  width: 100px;
+  height: 30px;
+  background: white;
+  top: 60px;
+  right: 320px;
+  border-radius: 20px;
+  border:1px solid;
+}
+
+@media screen and (max-width: 414px){
+  .create {
+    margin: 20px auto 30px;
+  }
+  .title {
+    font-size: 28px;
+  }
+
+}

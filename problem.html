@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/problem.css">
+</head>
+<body>
+    
+  <header>
+
+    <div class="header-content">
+      <i class="fa fa-bars" ></i>
+      <div class="header_img">
+        <a href="./index.html"><img src="img/header.png" alt=""></img></a>
+      </div>
+
+      <ul class="header-list">
+        <li><a href="./story.html" class="btn-2">品牌故事</a></li> 
+        <li><a href="#"class="btn-2">最新消息</a> 
+          <ul>
+            <li><a href="./news.html"class="btn-2">最新消息</a></li>
+            <li><a href="./blog.html"class="btn-2">部落格</a></li>
+          </ul>
+        </li>
+        <li><a href="./items.html"class="btn-2">產品總覽</a></li>
+        <li><a href="./hot.html"class="btn-2">熱銷排行</a></li>
+        <li><a href="#"class="btn-2">熱門Q&A</a>
+          <ul>
+            <li><a href="./problem.html"class="btn-2">常見問題</a></li>
+            <li><a href="./contact.html"class="btn-2">聯絡我們</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class ="header-icon">
+        <li class="search">
+          <input type="text" size=12 maxlength="6" id="search-block" class="hide" >
+          <a href="#">
+            <img src="img/header-1 .png" alt="">
+            <span>搜尋</span>
+          </a>
+        </li>
+        <li>
+          <a href="./shop.html">
+            <img src="img/header-2.png" alt="">
+            <div class="shopCount">0</div>
+            <span>購物車</span>
+          </a>
+        </li>
+        <li><a href="./person.html"><img src="img/header-3.png" alt=""><span>會員</span></a></li>
+      </ul>
+      
+    </div>
+  </header>
+
+  <a href="#"><img class="top" src="img/back.png" alt=""></a>
+  <ul class="mobile">
+    <li>
+      <a href="./shop.html">
+        <img src="img/header-2.png" alt="">
+        購物車
+        <div class="mobileshopCount">0</div>
+      </a>
+    </li>
+    <li>
+      <a href="./person.html">
+        <img src="img/header-3.png" alt="">
+        會員登入
+      </a>
+    </li>
+  </ul>
+  <div class="problem">
+
+    <div class="title">
+      <h1>常見問題Q&A</h1>
+      <img src="img/Path 1.png" alt=""></img>
+    </div>
+
+    <div class="problem-block">
+      <h2>最常見的七個問題</h2>
+      <div class="block">
+        <div class="block-top">
+          <div class="block-img block-img1">           
+            <!-- <img class="plus" id="plus-1" src="img/blog-plus.png" onclick="showBlock1()"/>
+            <img class="cut" id="cut-1" src="img/blog-cut.png" onclick="hideBlock1()"/> -->
+          </div>
+          <h3>漢方茶怎麼沖泡呢？</h3>
+        </div>
+        <div class="block-dis-1" id="block-dis-1">
+          <p>裝350ml的熱水，水的溫度不要到會燙傷食道，把茶包放進去之後，
+            大約等個3~5分鐘，等待茶包釋放，顏色都出來後，可以把茶包拿起來，
+            等喝完再進行第二泡，大概回沖三次之後味道會變越來越淡。</p>
+        </div>
+      </div>
+      <div class="block">
+        <div class="block-top">
+          <div class="block-img block-img2">           
+            <!-- <img class="plus" id="plus-2" src="img/blog-plus.png" onclick="showBlock2()"/>
+            <img class="cut" id="cut-2" src="img/blog-cut.png" onclick="hideBlock2()"/> -->
+          </div>
+          <h3>茶包該如何保存呢？</h3>
+        </div>
+        <div class="block-dis-1" id="block-dis-2">
+          <p>中藥材保存三大禁忌就是：1.潮濕 2.高溫 3.陽光直射，
+            所以只要放在陰暗乾燥的地方就可以了喔，記得拿出茶包後，
+            包裝要密封保存。</p>
+        </div>
+      </div>
+      <div class="block">
+        <div class="block-top">
+          <div class="block-img block-img3">           
+            <!-- <img class="plus" id="plus-3" src="img/blog-plus.png" onclick="showBlock3()"/>
+            <img class="cut" id="cut-3" src="img/blog-cut.png" onclick="hideBlock3()"/> -->
+          </div>
+          <h3>產品有沒有什麼樣的人不適合喝漢方茶或注意事項？</h3>
+        </div>
+        <div class="block-dis-1" id="block-dis-3">
+          <ul>
+            <li>▲精神：生理期間、孕婦、糖尿病、高血壓、心臟病患者與感冒期間不適合飲用</li>
+            <li>▲養聲：生理期間、孕婦、幼童、哺乳期間、高血壓、低血壓、
+              感冒引起之咳嗽、脾胃虛寒體質、過敏者不適合飲用</li>
+            <li>▲明亮：生理期間、孕婦、哺乳期間不適合飲用，心臟病、高血壓不適合飲用</li>
+            <li>▲女神：生理期間、孕婦、哺乳期間、空腹時不適合飲用</li>
+            <li>▲助眠：生理期間、孕婦、哺乳期間不適合飲用</li>
+            <li>▲月事：生理期間、孕婦、哺乳期間不適合飲用</li>
+            <li>▲纖美：生理期間、孕婦、哺乳期間、空腹時不適合飲用</li>
+            <li>▲除濕：生理期間、孕婦、哺乳期間不適合飲用</li>
+          </ul>
+        </div>
+      </div>
+      <div class="block">
+        <div class="block-top">
+          <div class="block-img block-img4">           
+            <!-- <img class="plus" id="plus-4" src="img/blog-plus.png" onclick="showBlock4()"/>
+            <img class="cut" id="cut-4" src="img/blog-cut.png" onclick="hideBlock4()"/> -->
+          </div>
+          <h3>為什麼部分的未開封茶包會結成硬塊狀?</h3>
+        </div>
+        <div class="block-dis-1" id="block-dis-4">
+          <p>因為樂木集的茶包是純天然的中藥材烘烤研磨，裡面是沒有任何添加物，
+            而大多數中藥材原料即使烘乾還是會有黏性，像是紅棗、枸杞，
+            不過加入熱水中悶泡就恢復。</p>
+        </div>
+      </div>
+      <div class="block">
+        <div class="block-top">
+          <div class="block-img block-img5">           
+            <!-- <img class="plus" id="plus-5" src="img/blog-plus.png" onclick="showBlock5()"/>
+            <img class="cut" id="cut-5" src="img/blog-cut.png" onclick="hideBlock5()"/> -->
+          </div>
+          <h3>中藥的配方是經由誰調配？</h3>
+        </div>
+        <div class="block-dis-1" id="block-dis-5">
+          <p> 主要是經由中藥行的中醫師，討論後多次調整研發完成。</p>
+        </div>
+      </div>
+      <div class="block">
+        <div class="block-top">
+          <div class="block-img block-img6">           
+            <!-- <img class="plus" id="plus-6" src="img/blog-plus.png" onclick="showBlock6()"/>
+            <img class="cut" id="cut-6" src="img/blog-cut.png" onclick="hideBlock6()"/> -->
+          </div>
+          <h3>為什麼要烘中藥材？</h3>
+        </div>
+        <div class="block-dis-1" id="block-dis-6">
+          <p>低溫烘烤中藥材，有殺菌、消毒、清潔的效果之外，往往1公斤的紅棗烘烤後，
+            就會少了3成左右，即便成本增加，卻也可以保住營養，讓材料味道更為濃郁，
+            如果沒有做此工序，藥材則容易受潮。</p>
+        </div>
+      </div>
+      <div class="block">
+        <div class="block-top">
+          <div class="block-img block-img7">           
+            <!-- <img class="plus" id="plus-7" src="img/blog-plus.png" onclick="showBlock7()"/>
+            <img class="cut" id="cut-7" src="img/blog-cut.png" onclick="hideBlock7()"/> -->
+          </div>
+          <h3> 為什麼茶包裏的中藥材是碎碎細細的?是不是用不好的中藥材？</h3>
+        </div>
+        <div class="block-dis-1" id="block-dis-7">
+          <p>其實一開始也想過要讓客戶直接看到中藥的原型，這樣好像比較安心，
+            但是我們試過完整藥材的茶包，沖泡的味道真的比較淡，中藥材沒有經過處理，
+            只是用熱水悶泡，藥材成分釋放會有困難，所以我們特別設計出，透過烘焙研磨製
+            成茶包，雖然它不是完整藥材的茶包，但是純天然的中藥材，加上有經過處理，味道與
+            藥材成分才會有釋放，讓忙碌的上班族，也能透過短短5分鐘的沖泡，得到更好的照。</p>
+        </div>
+      </div>
+
+      <div class="contact-block">
+        <h2>聯絡我們</h2>
+        <p>你可以來填寫<a href="./contact.html">表單</a></p>
+        <p>或是致電線上購物客服電話：0916-369-062，我們將有專人為你處理線上購物相關問題。</p>
+        <p>我們的電話客服服務時間為週一至週日 09:00~18:00，例假日照常服務。 </p>
+        <hr>
+        <div class="join-us">
+          <h2>加入我們</h2>
+          <a href="https://www.facebook.com/"><img src="img/footer-1.png" alt=""></img></a>
+          <a href="https://line.me/zh-hant/"><img src="img/footer-4.png" alt=""></img></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-left">
+        <h3>漢方輕。茶飲</h3>
+        <p>照顧您的健康 是我們的榮幸</p>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/"><img src="img/footer-1.png" alt=""></img></a>
+          </li>
+          <li>
+            <a href="https://www.google.com/gmail/"><img src="img/footer-2.png" alt=""></img></a>
+          </li>
+          <li>
+            <a href="https://www.skype.com/zh-Hant/features/calling-and-instant-messaging/"><img src="img/footer-3.png" alt=""></img></a>
+          </li>
+          <li>
+            <a href="https://line.me/zh-hant/"><img src="img/footer-4.png" alt=""></img></a>
+          </li>
+        </ul>
+      </div>
+
+        <div class="footer-right">
+          <ul>
+            <li>
+              <h3>關於我們</h3>
+              <a href="./story.html">品牌故事</a>
+              <a href="./news.html">最新消息</a>
+              <a href="./items.html">產品總覽</a>
+            </li>
+            <li>
+              <h3>Q&A</h3>
+              <a href="./problem.html">常見問題</a>
+              <a href="">如何購買</a>
+              <a href="./contact.html">聯絡我們</a>
+            </li>
+            <li>
+              <h3>聯絡資訊</h3>
+              <p>客服專線:0916-369-062</p>
+              <p>地址:新北市三重區忠孝路二段38巷</p>
+              <p>時間:10:00 ~ 18:00</p>
+            </li>
+          </ul>
+        </div>
+      </div>          
+  </footer>
+
+  <div class="footer-trip">
+    <div class="footer-trip-content">
+      <p>© 2020 漢方輕。茶飲版權所有</p>
+      <p>隱私權說明</p>
+      <p>Taiwan</p>
+    </div>
+  </div>
+<script src="./js/problem.js"></script>
+<script src="./js/common.js"></script>
+</body>
+</html>
