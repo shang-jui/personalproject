@@ -13,7 +13,10 @@ JavaScript(ES6)  |        |                              |
 
 
 ## 版面設計
-
+### Sitemap
+![image](https://github.com/shang-jui/personalproject/blob/main/%E5%9C%96%E7%89%871.png)
+### Mockup
+![image](https://github.com/shang-jui/personalproject/blob/main/%E5%9C%96%E7%89%874.png)
 ## 切版
 登入頁面  | 高級會員展間 | 競標頁面 |
 :---------------:|:------:|:--------------------:|
