@@ -9,7 +9,7 @@ Front-End Basic  | Layout |Other                         |
 :---------------:|:------:|:----------------------------:|
 HTML             | RWD    |WebStorage                    |
 CSS              | Flexbox|                              |
-JavaScript(ES6)  |        |                              |
+JavaScript       |        |                              |
 
 
 ## 版面設計
@@ -18,6 +18,18 @@ JavaScript(ES6)  |        |                              |
 ### Mockup
 ![image](https://github.com/shang-jui/personalproject/blob/main/%E5%9C%96%E7%89%874.png)
 ## 切版
-登入頁面  | 高級會員展間 | 競標頁面 |
+首頁  | 品牌故事 | 最新消息 |
 :---------------:|:------:|:--------------------:|
-![image](https://github.com/shang-jui/group/blob/master/group-login.gif) | ![image](https://github.com/shang-jui/group/blob/master/group-highmember.gif)| ![image](https://github.com/shang-jui/group/blob/master/group-bidding.gif) |
+![image](https://github.com/shang-jui/group/blob/master/group-login.gif) | ![image](https://github.com/shang-jui/group/blob/master/group-highmember.gif)| ![image](https://github.com/shang-jui/group/blob/master/group-bidding.gif)|
+
+部落格  | 產品總覽 | 熱銷排行 |
+|:---------------:|:------:|:--------------------:|
+![image](https://github.com/shang-jui/group/blob/master/group-login.gif) | ![image](https://github.com/shang-jui/group/blob/master/group-highmember.gif)| ![image](https://github.com/shang-jui/group/blob/master/group-bidding.gif)|
+
+常見問題  | 聯絡我們 | 購物車 |
+|:---------------:|:------:|:--------------------:|
+![image](https://github.com/shang-jui/group/blob/master/group-login.gif) | ![image](https://github.com/shang-jui/group/blob/master/group-highmember.gif)| ![image](https://github.com/shang-jui/group/blob/master/group-bidding.gif)|
+
+會員登入  | 會員註冊 | 
+|:---------------:|:------:|
+![image](https://github.com/shang-jui/group/blob/master/group-login.gif) | ![image](https://github.com/shang-jui/group/blob/master/group-highmember.gif)|
