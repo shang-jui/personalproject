@@ -37,4 +37,8 @@ JavaScript       |        |                              |
 - ### 使用 JavaScript 建立無限輪播廣告牆及滾動視差
 - ### 使用 CSS 實現 RWD 效果
 
+## 購物車
+![image](https://github.com/shang-jui/personalproject/blob/main/img/personal-Process.gif)|
+- ### 使用 WebStorage 開發購物車功能
+
 
