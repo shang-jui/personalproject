@@ -33,3 +33,8 @@ JavaScript       |        |                              |
 購物車 |會員登入  | 會員註冊 | 
 |:---------------:|:---------------:|:------:|
 ![image](https://github.com/shang-jui/personalproject/blob/main/img/personal-shop.gif)|![image](https://github.com/shang-jui/personalproject/blob/main/img/personal-person.gif) | ![image](https://github.com/shang-jui/personalproject/blob/main/img/personal-create.gif)|
+
+- ### 使用 JavaScript 建立無限輪播廣告牆及滾動視差
+- ### 使用 CSS 實現 RWD 效果
+
+
